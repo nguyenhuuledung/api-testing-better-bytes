@@ -39,4 +39,5 @@ Auto
 - Playwright
 
 XML
+
 JSON - nhẹ hơn XML
