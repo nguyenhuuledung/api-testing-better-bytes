@@ -34,6 +34,7 @@
 Manual
 - POSTMAN
 - JMeter
+
 Auto
 - Playwright
 
