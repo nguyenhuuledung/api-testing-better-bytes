@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <person>
+    <name>Nguyen Van A</name>
+    <age>20</age>
+    <Major>Computer Science</Major>
+    <GPA>3.7</GPA>
+    <Courses>
+        <Courses>Programming Fundamentals</Courses>
+        <Courses>Data Structures</Courses>
+        <Courses>Web Development</Courses>
+    </Courses>
+ </person>
+
