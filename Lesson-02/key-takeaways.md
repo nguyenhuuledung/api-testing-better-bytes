@@ -58,5 +58,5 @@ chứa các cặp [key : value] để trao đổi khi request > response
 + 4xx: client error
 + 5xx: server error
 
-
+// Nếu status code là khác nhau mỗi tổ chức thì mình bắt bug như thế nào?
 
