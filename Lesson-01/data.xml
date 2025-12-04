@@ -5,9 +5,9 @@
     <Major>Computer Science</Major>
     <GPA>3.7</GPA>
     <Courses>
-        <Courses>Programming Fundamentals</Courses>
-        <Courses>Data Structures</Courses>
-        <Courses>Web Development</Courses>
+        <Course>Programming Fundamentals</Course>
+        <Course>Data Structures</Course>
+        <Course>Web Development</Course>
     </Courses>
  </person>
 
