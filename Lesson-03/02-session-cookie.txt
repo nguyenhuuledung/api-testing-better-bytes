@@ -1,0 +1,4 @@
+set-cookie=wordpress_test_cookie=WP%20Cookie%20check; path=/; secure; HttpOnly
+set-cookie=wordpress_sec_e778134cbff8432635b7b4b45a7ba56c=a101%7C1766133700%7CovqXANKvmyJTYlaDgIJFdWXRPWAfYz9SPS7S3PiaK27%7Cf8fe04104862053bfe85ffac8a35b976d152c9f73c696fd775c567f09e8cf1f7; expires=Fri, 19-Dec-2025 20:41:40 GMT; Max-Age=1252800; path=/wp-content/plugins; secure; HttpOnly
+set-cookie=wordpress_sec_e778134cbff8432635b7b4b45a7ba56c=a101%7C1766133700%7CovqXANKvmyJTYlaDgIJFdWXRPWAfYz9SPS7S3PiaK27%7Cf8fe04104862053bfe85ffac8a35b976d152c9f73c696fd775c567f09e8cf1f7; expires=Fri, 19-Dec-2025 20:41:40 GMT; Max-Age=1252800; path=/wp-admin; secure; HttpOnly
+set-cookie=wordpress_logged_in_e778134cbff8432635b7b4b45a7ba56c=a101%7C1766133700%7CovqXANKvmyJTYlaDgIJFdWXRPWAfYz9SPS7S3PiaK27%7C4d59afd4781eb80701295d40b01f4400f47c2bc638dc520528ee9b86996f3a50; expires=Fri, 19-Dec-2025 20:41:40 GMT; Max-Age=1252800; path=/; secure; HttpOnly
