@@ -12,7 +12,7 @@
 +  username, password: xác thực người dùng
 
 + Session ( server), cookie (client): duy trì đăng nhập cho người dùng
-Cách lấy: log in trên web > dev mode | inspect > Network > Header > cookie
+Cách lấy: log in trên web > dev mode | inspect > Aplication > Cookie
 
 + Base64 encode: mã hoá theo thuật toán Base64
 
@@ -50,6 +50,8 @@ Cách lấy: log in trên web > dev mode | inspect > Network > Header > cookie
 + Basic Auth: encode base64 cho username/ password
 
 Cách lấy: log in trên web > dev mode | inspect > Network > Header > Authorization
+
++ **Website encode base64**: https://www.base64decode.org/
 + API Key: 
     1. Tạo API Key
     2. Gắn API Key trong request
