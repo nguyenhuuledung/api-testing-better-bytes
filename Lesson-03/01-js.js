@@ -1,3 +1,4 @@
+let result = "win";
 if (result === "win") {
   console.log("Chúc mừng! Đội của bạn đã chiến thắng!");
 } else if (result === "draw") {

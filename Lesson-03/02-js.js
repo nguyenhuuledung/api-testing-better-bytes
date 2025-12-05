@@ -1,3 +1,5 @@
+let plan = "free";
+
 switch (plan) {
   case "free":
     console.log("Bạn có thể nghe nhạc nhưng có quảng cáo.");
