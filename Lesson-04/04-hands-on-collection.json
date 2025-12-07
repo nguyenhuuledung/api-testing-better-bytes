@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "6c377e70-7664-4c10-a4d3-d1f6fdfcdf94",
+		"name": "Better Byte Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49720965",
+		"_collection_link": "https://ledung-nguyenhuu-6844408.postman.co/workspace/0d287b8e-6ed4-441d-88f3-cfbdf2da0a69/collection/49720965-6c377e70-7664-4c10-a4d3-d1f6fdfcdf94?action=share&source=collection_link&creator=49720965"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"{{userName}}\" ,\r\n  \"password\": \"{{passWord}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/user-management/v1/login.php",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"user-management",
+						"v1",
+						"login.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwibmFtZSI6IkFkbWluIFVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjUwNzgyNjR9.umjQmXjFK2xA81Ekg76qSNHoNbsAbXcJUbG4Ru9VaBE",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@example.com\",\r\n  \"password\": \"password\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/user-management/v1/users.php",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"user-management",
+						"v1",
+						"users.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwibmFtZSI6IkFkbWluIFVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjUwNzgyNjR9.umjQmXjFK2xA81Ekg76qSNHoNbsAbXcJUbG4Ru9VaBE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"NelfikenZ\",\r\n  \"email\": \"newuser2@example.com\",\r\n  \"password\": \"password\",\r\n  \"facebook\": \"https://facebook.com/newuser\",\r\n  \"avatar\": \"https://i.pravatar.cc/150?img=20\",\r\n  \"hobbies\": \"Reading, Coding\",\r\n  \"role\": \"user\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/user-management/v1/users.php",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"user-management",
+						"v1",
+						"users.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check supported Method",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwibmFtZSI6IkFkbWluIFVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjUwNzgyNjR9.umjQmXjFK2xA81Ekg76qSNHoNbsAbXcJUbG4Ru9VaBE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/user-management/v1/users.php",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"user-management",
+						"v1",
+						"users.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwibmFtZSI6IkFkbWluIFVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjUwNzgyNjR9.umjQmXjFK2xA81Ekg76qSNHoNbsAbXcJUbG4Ru9VaBE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 10\r\n}"
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/user-management/v1/users.php",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"user-management",
+						"v1",
+						"users.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": ""
+		}
+	]
+}

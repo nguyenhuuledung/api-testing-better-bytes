@@ -1,0 +1,25 @@
+//JSON
+{
+  "tenHanhTinh": "Kepler-22b",
+  "khoangCachToiTraiDat": 587,
+  "coTheSinhSong": true,
+  "cacQuocGiaDaDatChanToi": [
+    "Việt Nam",
+    "Campuchia",
+    "Thái Lan"
+  ]
+}
+
+//XML
+<Galaxy>
+  <tenHanhTinh>Kepler-22b</tenHanhTinh>
+  <khoangCachToiTraiDat>587</khoangCachToiTraiDat>
+  <coTheSinhSong>có</coTheSinhSong>
+  <cacQuocGiaDaDatChanToi>
+    <quocGia>Việt Nam</quocGia>
+    <quocGia>Campuchia</quocGia>
+    <quocGia>Thái Lan</quocGia>
+  </cacQuocGiaDaDatChanToi>
+</Galaxy>
+
+//JSON có cú pháp ngắn gọn hơn XML

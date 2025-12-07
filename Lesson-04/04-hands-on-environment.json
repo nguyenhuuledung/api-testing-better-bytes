@@ -1,0 +1,34 @@
+{
+	"id": "f16dbafa-c3b0-4c46-8444-f4b010626a92",
+	"name": "API Class",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://material.playwrightvn.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userName",
+			"value": "admin@example.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "passWord",
+			"value": "password",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwibmFtZSI6IkFkbWluIFVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjUwNzgyNjR9.umjQmXjFK2xA81Ekg76qSNHoNbsAbXcJUbG4Ru9VaBE",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-12-06T10:08:45.519Z",
+	"_postman_exported_using": "Postman/11.74.5"
+}
